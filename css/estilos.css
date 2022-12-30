@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+/*--------------------------*/
+/*------- Banner -----------*/
+/*--------------------------*/
+.banner{
+    background-image: url('/img/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.banner::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.banner .container {
+    height: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+.banner__titulo-principal{
+    font-size: 70px;
+}
+
+.banner__btn{
+    background-color: #F14D5D;
+}
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------- BREAKSPOINTS--------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* @media (min-width: 576px) { ... }
+
+
+@media (min-width: 768px) { ... }
+
+
+@media (min-width: 992px) { ... }
+
+
+@media (min-width: 1200px) { ... }
+
+
+@media (min-width: 1400px) { ... } */
