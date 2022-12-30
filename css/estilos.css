@@ -24,7 +24,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(152, 18, 18, 0.5);
     z-index: 1;
 }
 
@@ -35,7 +35,11 @@
 }
 
 .banner__titulo-principal{
-    font-size: 70px;
+    font-size: 40px;
+}
+
+.banner__cont-botones{
+    margin-top: 30px;
 }
 
 .banner__btn{
@@ -46,20 +50,47 @@
 
 
 /*--------------------------------------------------------------------------------------------------------------------------*/
-/*----------------------------------------------- BREAKSPOINTS--------------------------------------------------------------*/
+/*----------------------------------------------- BREAKSPOINTS -------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------------------------------*/
 
 
-/* @media (min-width: 576px) { ... }
+@media (min-width: 576px) { 
+
+}
 
 
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) { 
+
+    .banner__subtitulo{
+        font-size: 20px;
+    }
+
+    .banner__titulo-principal{
+        font-size: 80px;
+    }
+
+    .banner__cont-botones{
+        margin-top: 50px;
+    }
+ }
 
 
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) { 
+
+}
+
+@media (min-width: 1200px) { 
+
+}
 
 
-@media (min-width: 1200px) { ... }
+@media (min-width: 1400px) { 
+
+    .banner::after{
+        background: rgba(0, 0, 0, 0.454);
+    }
+
+}  
 
 
-@media (min-width: 1400px) { ... } */
+/*---- chequear 1280 1366 ------*/
