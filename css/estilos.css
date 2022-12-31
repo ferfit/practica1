@@ -47,6 +47,40 @@
 }
 
 
+/************************************* ABOUT US **************************** */
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+}
+
+#about_us h3 {
+    color: rgba(12, 144, 231, 0.925);
+}
+
+#about_us_titulo{
+color: rgba(0, 6, 7, 0.623);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#about_us h4{
+    color: rgb(95, 94, 94);
+}
+
+#about_us p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(168, 166, 166);
+}
+
+#about_us .img-container{
+    background-image: url('/img/about.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 
 
 /*--------------------------------------------------------------------------------------------------------------------------*/
@@ -72,7 +106,7 @@
     .banner__cont-botones{
         margin-top: 50px;
     }
- }
+}
 
 
 @media (min-width: 992px) { 
