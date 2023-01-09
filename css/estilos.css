@@ -73,14 +73,23 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(168, 166, 166);
 }
 
-#about_us .img-container{
-    background-image: url('/img/about.jpg');
-    background-position: center;
+#about_us img{
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-
+    position: relative;
+    top: 10px;
+    padding-left: 20px;
 }
 
+#about_us .textos{
+    position: center;
+}
+
+#about_us .botonessegunda{
+    margin-top: 30px;
+    
+}
 
 
 /*--------------------------------------------------------------------------------------------------------------------------*/
