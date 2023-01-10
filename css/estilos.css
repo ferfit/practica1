@@ -98,6 +98,23 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     align-items: center;
 }
 
+/********************************* TERCERA SECCION ****************************/
+#textostercera .servicios {
+    color: rgba(12, 144, 231, 0.925);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#textostercera .eltitulo {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
 /*--------------------------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------------- BREAKSPOINTS -------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------------------------------*/
