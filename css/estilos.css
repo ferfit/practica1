@@ -47,21 +47,34 @@
 }
 
 
-/************************************* ABOUT US **************************** */
+/************************************* SEGUNDA SECCION **************************** */
 
 .container {
-    max-width: 1400px;
+    padding-top: 30px;
+    margin-left: 10px;
+    max-width: 1000px;
     margin: auto;
     display: flex;
+    justify-content: center;
+}
+
+.imagen {
+    width: 350px;
+    min-width: 350px;
+    min-height: 350px;
+    position: relative;
+    padding-right: 5px;
+    margin-right: 20px;
 }
 
 #about_us h3 {
     color: rgba(12, 144, 231, 0.925);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#about_us_titulo{
-color: rgba(0, 6, 7, 0.623);
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#about_us .about_us_titulo{
+color: black;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #about_us h4{
@@ -73,24 +86,17 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(168, 166, 166);
 }
 
-#about_us img{
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    top: 10px;
-    padding-left: 20px;
-}
-
 #about_us .textos{
-    position: center;
+    position: left;
 }
 
 #about_us .botonessegunda{
     margin-top: 30px;
-    
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 
 /*--------------------------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------------- BREAKSPOINTS -------------------------------------------------------------*/
