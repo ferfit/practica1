@@ -152,8 +152,8 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
     align-items: center;
-   height: 180px;
-   border-bottom: 5px solid blue;
+    height: 180px;
+    border-bottom: 5px solid blue;
 }
 
 .btn-cont1 p {
@@ -166,6 +166,34 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom: 5px solid red;
 
 }
+
+.cont-textos-tercera {
+    margin-bottom: 30px;
+    background-color: rgba(216, 216, 253, 0.877);
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    flex-wrap: wrap;
+    padding: 30px;
+    border-bottom: 5px solid blue;
+    align-content: space-between;
+    
+}
+
+.cont-textos-tercera h3{
+    color: rgba(12, 144, 231, 0.925);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cont-textos-tercera h2{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cont-textos-tercera p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(168, 166, 166);
+}
+
 
 
 
@@ -221,7 +249,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     .cont-img{
         width: 40%;
     }
-       
+    
 }
 
 
