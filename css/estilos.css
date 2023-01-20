@@ -125,6 +125,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     flex-wrap: wrap;
     margin: auto;
     padding: auto;
+    min-width: 250px;
 }
 
 .cont-img{
@@ -172,12 +173,11 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 .cont-textos-tercera {
     background-color: rgba(216, 216, 253, 0.877);
     color:black;
-    flex-wrap: wrap;
     border-bottom: 5px solid blue;
     align-content: space-between;
     align-items: center;
     position: relative;
-    margin: auto;
+    margin-bottom: 10px;
     border-radius: 5px;
 }
 
@@ -185,12 +185,13 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgba(12, 144, 231, 0.925);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: block;
+    min-width: 250px;
 }
 
 .cont-textos-tercera h2{
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    display: block;  
+    min-width: 250px;
 }
 
 .cont-textos-tercera p{
@@ -204,6 +205,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 5px;
     display: block;  
 }
+
 
 
 
