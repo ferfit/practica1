@@ -264,12 +264,12 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 .cuarta-section .cont-textos-cuarta .parrafos .parrafos-bordes{
     border: 1px solid rgb(202, 202, 202);
     padding-top: 5px;
-    padding-bottom: 2px;
+    padding-bottom: 5px;
 }
 
 .cuarta-section .cont-textos-cuarta .caja1{
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     border-radius: 5px;
     border: 1px solid rgba(12, 144, 231, 0.925);
     
@@ -277,14 +277,45 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 .cuarta-section .cont-textos-cuarta .caja2{
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     border-radius: 5px;
     border: 1px solid #F14D5D;
 }
 
 /****************** BOTONES DE LA CUARTA SECTION *************/
 
+.caja1 .button-cuarta-1{
+    position: absolute;
+    top: 359px;
+    left: 431px;
+    background-color: rgba(12, 144, 231, 0.925);
+    border-radius: 5px;
+    color: white;
+    padding: 3px 3px 3px 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
+.parrafos .button-cuarta-2{
+    position: absolute;
+    left: 431px;
+    bottom: 390px;
+    background-color: rgba(12, 144, 231, 0.925);
+    border-radius: 5px;
+    color: white;
+    padding: 3px 3px 3px 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.parrafos .button-cuarta-3{
+    position: absolute;
+    bottom: 8px;
+    left: 430px;
+    background-color: rgba(12, 144, 231, 0.925);
+    border-radius: 5px;
+    color: white;
+    padding: 3px 3px 3px 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 /*--------------------------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------------- BREAKSPOINTS -------------------------------------------------------------*/
