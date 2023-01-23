@@ -103,9 +103,9 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /********************************* TERCERA SECCION ****************************/
- #terceraseccion{
+#terceraseccion{
     padding: 70px 0;
- }
+}
 #textostercera .servicios {
     color: rgba(12, 144, 231, 0.925);
     margin: auto;
@@ -173,8 +173,6 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
-
-
 .cont-textos-tercera {
     background-color: rgba(216, 216, 253, 0.877);
     color:black;
@@ -215,6 +213,76 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
+/*-----------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------- CUARTA SECTION --------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------*/
+.cuarta-section .cont-textos-cuarta{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.cuarta-section .pricing-plan{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.cuarta-section .pricing-plan h3{
+    color: rgba(12, 144, 231, 0.925);
+    text-align: center;
+}
+
+.cuarta-section .pricing-plan h2{
+    color: black;
+    text-align: center;
+}
+
+.cuarta-section .cont-textos-cuarta--blue .titulos-top{
+    background-color: rgba(12, 144, 231, 0.925);
+    padding: 5px;
+}
+
+.cuarta-section .cont-textos-cuarta--red .titulos-top{
+    background-color:#F14D5D;
+    padding: 5px;
+}
+
+.cuarta-section .cont-textos-cuarta .parrafos{
+    margin-top: 1px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-bottom: 20px;
+    color: black;
+}
+
+.cuarta-section .cont-textos-cuarta .parrafos p{
+    padding-top: 15px;
+}
+
+.cuarta-section .cont-textos-cuarta .parrafos .parrafos-bordes{
+    border: 1px solid rgb(202, 202, 202);
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+
+.cuarta-section .cont-textos-cuarta .caja1{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(12, 144, 231, 0.925);
+    
+}
+
+.cuarta-section .cont-textos-cuarta .caja2{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #F14D5D;
+}
+
+/****************** BOTONES DE LA CUARTA SECTION *************/
 
 
 
