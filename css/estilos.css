@@ -24,7 +24,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(152, 18, 18, 0.5);
+    background: rgba(56, 69, 146, 0.5);
     z-index: 1;
 }
 
@@ -217,11 +217,19 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 /*----------------------------------------------- CUARTA SECTION --------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------------------------*/
 .cuarta-section .cont-textos-cuarta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     position: relative;
     text-align: center;
     margin-top: 10px;
     color: white;
+}
+
+.card-content{
+    width: 100%;
 }
 
 .cuarta-section .pricing-plan{
@@ -283,11 +291,23 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /****************** BOTONES DE LA CUARTA SECTION *************/
+.caja2, .caja1{
+    position: relative;
+}
+
+.button-cuarta-2,.button-cuarta-1,.button-cuarta-3{
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
 
 .caja1 .button-cuarta-1{
-    position: absolute;
+    /* position: absolute;
     top: 359px;
-    left: 431px;
+    left: 431px; */
     background-color: rgba(12, 144, 231, 0.925);
     border-radius: 5px;
     color: white;
@@ -296,9 +316,9 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .parrafos .button-cuarta-2{
-    position: absolute;
+    /* position: absolute;
     left: 431px;
-    bottom: 390px;
+    bottom: 390px; */
     background-color: rgba(12, 144, 231, 0.925);
     border-radius: 5px;
     color: white;
@@ -307,9 +327,9 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .parrafos .button-cuarta-3{
-    position: absolute;
+    /* position: absolute;
     bottom: 8px;
-    left: 430px;
+    left: 430px; */
     background-color: rgba(12, 144, 231, 0.925);
     border-radius: 5px;
     color: white;
@@ -345,6 +365,15 @@ font-family: Georgia, 'Times New Roman', Times, serif;
         width: 48%;
     }
 
+    .cuarta-section .cont-textos-cuarta{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card-content{
+        width: 47%;
+    }
+
 }
 
 
@@ -378,6 +407,10 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     .cont-textos-tercera{
         width: 30%;
         margin: 15px 0;
+    }
+
+    .card-content{
+        width: 30%;
     }
     
 }
