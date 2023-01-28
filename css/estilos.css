@@ -337,6 +337,64 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/*------------------------------------ QUINTA SECTION ----------------------------------------------------------------*/
+
+.container-quinta-section{
+    margin: 70px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url('/img/banner.jpg');
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-quinta-subtitulo{
+    color: white;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-quinta-titulo{
+    color: white;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.parrafo{
+    padding: 5px;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.banner-quinta-buttons{
+    align-items: center;
+    position: relative;
+    text-align: center;
+    margin: 40px;
+}
+
+.banner-quinta-button1 {
+    background-color: rgba(12, 144, 231, 0.925);
+    border-radius: 5px;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.banner-quinta-button2{
+    background-color: #F14D5D;
+    border-radius: 5px;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 /*--------------------------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------------- BREAKSPOINTS -------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------------------------------*/
