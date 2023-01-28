@@ -174,9 +174,9 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .cont-textos-tercera {
-    background-color: rgba(216, 216, 253, 0.877);
+    background-color: rgba(240, 240, 241, 0.877);
     color:black;
-    border-bottom: 5px solid blue;
+    border-bottom: 5px solid rgba(12, 144, 231, 0.925);
     align-content: space-between;
     align-items: center;
     position: relative;
@@ -340,7 +340,6 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 /*------------------------------------ QUINTA SECTION ----------------------------------------------------------------*/
 
 .container-quinta-section{
-    margin: 70px;
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
@@ -350,26 +349,27 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     height: 400px;
     background-position: center;
     background-size: cover;
+    margin-top: 100px;
 }
 
 .banner-quinta-subtitulo{
     color: white;
-    padding: 5px 0px;
+    padding-top: 30px;
     display: flex;
     justify-content: center;
 }
 
 .banner-quinta-titulo{
     color: white;
-    padding: 5px 0px;
     display: flex;
     justify-content: center;
     margin: 30px;
 }
 
 .parrafo{
-    padding: 5px;
+    display: flex;
     justify-content: center;
+    padding: 20px 0px 0px 0px;
     color: white;
     text-align: center;
 }
@@ -382,13 +382,19 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .banner-quinta-button1 {
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100px;
     background-color: rgba(12, 144, 231, 0.925);
     border-radius: 5px;
     color: white;
     padding: 20px 20px 20px 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.banner-quinta-button2{
+.banner-quinta-button2 {
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100px;
     background-color: #F14D5D;
     border-radius: 5px;
     color: white;
